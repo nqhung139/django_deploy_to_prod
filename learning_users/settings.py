@@ -27,7 +27,7 @@ SECRET_KEY = '^(-v8z&kg0=)74-$ed9vb%(c(0b1=^u%d-oe(8-mafhf1spm9='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['xuongkho.pythonanywhere.com']
 
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.Argon2PasswordHasher',
